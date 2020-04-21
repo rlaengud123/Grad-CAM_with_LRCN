@@ -1,0 +1,218 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+.vscode
+.DS_Store
+results/*.png
+model/epoch_580.pth.tar
+model/model_checkpoint.pth.tar
+grad/*
+results/*
+results2/*
+results3/*
+원본/*
+samples/*
+grad.zip
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/grad-cam-pytorch-master/v16/.suo
+docs/0-densenet201-deconvnet-bull_mastiff.png
+docs/0-densenet201-deconvnet-tabby.png
+docs/0-densenet201-deconvnet-tiger_cat.png
+docs/0-densenet201-gradcam-features-bull_mastiff.png
+docs/0-densenet201-gradcam-features-tabby.png
+docs/0-densenet201-gradcam-features-tiger_cat.png
+docs/0-densenet201-guided_gradcam-features-bull_mastiff.png
+docs/0-densenet201-guided_gradcam-features-tabby.png
+docs/0-densenet201-guided_gradcam-features-tiger_cat.png
+docs/0-densenet201-guided-bull_mastiff.png
+docs/0-densenet201-guided-tabby.png
+docs/0-densenet201-guided-tiger_cat.png
+docs/0-densenet201-vanilla-bull_mastiff.png
+docs/0-densenet201-vanilla-tabby.png
+docs/0-densenet201-vanilla-tiger_cat.png
+docs/0-resnet152-deconvnet-boxer.png
+docs/0-resnet152-deconvnet-bull_mastiff.png
+docs/0-resnet152-deconvnet-tiger_cat.png
+docs/0-resnet152-gradcam-layer1-bull_mastiff.png
+docs/0-resnet152-gradcam-layer2-bull_mastiff.png
+docs/0-resnet152-gradcam-layer3-bull_mastiff.png
+docs/0-resnet152-gradcam-layer4-boxer.png
+docs/0-resnet152-gradcam-layer4-bull_mastiff.png
+docs/0-resnet152-gradcam-layer4-tiger_cat.png
+docs/0-resnet152-gradcam-relu-bull_mastiff.png
+docs/0-resnet152-guided_gradcam-layer4-boxer.png
+docs/0-resnet152-guided_gradcam-layer4-bull_mastiff.png
+docs/0-resnet152-guided_gradcam-layer4-tiger_cat.png
+docs/0-resnet152-guided-boxer.png
+docs/0-resnet152-guided-bull_mastiff.png
+docs/0-resnet152-guided-tiger_cat.png
+docs/0-resnet152-sensitivity-10-boxer.png
+docs/0-resnet152-sensitivity-10-bull_mastiff.png
+docs/0-resnet152-sensitivity-10-tiger_cat.png
+docs/0-resnet152-sensitivity-15-boxer.png
+docs/0-resnet152-sensitivity-15-bull_mastiff.png
+docs/0-resnet152-sensitivity-15-tiger_cat.png
+docs/0-resnet152-sensitivity-25-boxer.png
+docs/0-resnet152-sensitivity-25-bull_mastiff.png
+docs/0-resnet152-sensitivity-25-tiger_cat.png
+docs/0-resnet152-sensitivity-35-boxer.png
+docs/0-resnet152-sensitivity-35-bull_mastiff.png
+docs/0-resnet152-sensitivity-35-tiger_cat.png
+docs/0-resnet152-sensitivity-45-boxer.png
+docs/0-resnet152-sensitivity-45-bull_mastiff.png
+docs/0-resnet152-sensitivity-45-tiger_cat.png
+docs/0-resnet152-sensitivity-90-boxer.png
+docs/0-resnet152-sensitivity-90-bull_mastiff.png
+docs/0-resnet152-sensitivity-90-tiger_cat.png
+docs/0-resnet152-vanilla-boxer.png
+docs/0-resnet152-vanilla-bull_mastiff.png
+docs/0-resnet152-vanilla-tiger_cat.png
+docs/0-squeezenet1_1-deconvnet-boxer.png
+docs/0-squeezenet1_1-deconvnet-bull_mastiff.png
+docs/0-squeezenet1_1-deconvnet-Great_Dane.png
+docs/0-squeezenet1_1-gradcam-features-boxer.png
+docs/0-squeezenet1_1-gradcam-features-bull_mastiff.png
+docs/0-squeezenet1_1-gradcam-features-Great_Dane.png
+docs/0-squeezenet1_1-guided_gradcam-features-boxer.png
+docs/0-squeezenet1_1-guided_gradcam-features-bull_mastiff.png
+docs/0-squeezenet1_1-guided_gradcam-features-Great_Dane.png
+docs/0-squeezenet1_1-guided-boxer.png
+docs/0-squeezenet1_1-guided-bull_mastiff.png
+docs/0-squeezenet1_1-guided-Great_Dane.png
+docs/0-squeezenet1_1-vanilla-boxer.png
+docs/0-squeezenet1_1-vanilla-bull_mastiff.png
+docs/0-squeezenet1_1-vanilla-Great_Dane.png
+docs/0-vgg19_bn-deconvnet-boxer.png
+docs/0-vgg19_bn-deconvnet-bull_mastiff.png
+docs/0-vgg19_bn-deconvnet-tabby.png
+docs/0-vgg19_bn-gradcam-features-boxer.png
+docs/0-vgg19_bn-gradcam-features-bull_mastiff.png
+docs/0-vgg19_bn-gradcam-features-tabby.png
+docs/0-vgg19_bn-guided_gradcam-features-boxer.png
+docs/0-vgg19_bn-guided_gradcam-features-bull_mastiff.png
+docs/0-vgg19_bn-guided_gradcam-features-tabby.png
+docs/0-vgg19_bn-guided-boxer.png
+docs/0-vgg19_bn-guided-bull_mastiff.png
+docs/0-vgg19_bn-guided-tabby.png
+docs/0-vgg19_bn-vanilla-boxer.png
+docs/0-vgg19_bn-vanilla-bull_mastiff.png
+docs/0-vgg19_bn-vanilla-tabby.png
+docs/0-vgg19-deconvnet-bull_mastiff.png
+docs/0-vgg19-deconvnet-French_bulldog.png
+docs/0-vgg19-deconvnet-pug.png
+docs/0-vgg19-gradcam-features-bull_mastiff.png
+docs/0-vgg19-gradcam-features-French_bulldog.png
+docs/0-vgg19-gradcam-features-pug.png
+docs/0-vgg19-guided_gradcam-features-bull_mastiff.png
+docs/0-vgg19-guided_gradcam-features-French_bulldog.png
+docs/0-vgg19-guided_gradcam-features-pug.png
+docs/0-vgg19-guided-bull_mastiff.png
+docs/0-vgg19-guided-French_bulldog.png
+docs/0-vgg19-guided-pug.png
+docs/0-vgg19-vanilla-bull_mastiff.png
+docs/0-vgg19-vanilla-French_bulldog.png
+docs/0-vgg19-vanilla-pug.png
+docs/0-xception_v1-gradcam-exit_flow.conv4-boxer.png
+docs/0-xception_v1-gradcam-exit_flow.conv4-bull_mastiff.png
+docs/0-xception_v1-gradcam-exit_flow.conv4-tiger_cat.png
+best_model.pth.tar

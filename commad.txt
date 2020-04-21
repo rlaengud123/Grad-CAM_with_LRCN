@@ -1,0 +1,3 @@
+200310-1656 : python main.py demo1 -t conv_model.conv_model.features.conv0 -i samples/010.bmp -i samples/027.bmp -i samples/034.bmp -i samples/044.bmp -i samples/053.bmp -i samples/057.bmp
+200311-1646 : python main.py demo1 -t conv_model.conv_model.features.conv0 -i F:\cmc_resize\1\2012-00-0020
+200312-2237 : python main.py demo1 -t conv_model.conv_model.features.conv0 -i C:\Users\for_someday\Desktop\grad-cam-pytorch-master\samples\exam
