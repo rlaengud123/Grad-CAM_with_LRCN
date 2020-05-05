@@ -216,3 +216,7 @@ docs/0-xception_v1-gradcam-exit_flow.conv4-boxer.png
 docs/0-xception_v1-gradcam-exit_flow.conv4-bull_mastiff.png
 docs/0-xception_v1-gradcam-exit_flow.conv4-tiger_cat.png
 best_model.pth.tar
+model/best_model_h.pth.tar
+model/epoch_595.pth.tar
+image_combine.zip
+.gitignore
