@@ -220,3 +220,7 @@ model/best_model_h.pth.tar
 model/epoch_595.pth.tar
 image_combine.zip
 .gitignore
+done/*
+not/*
+test/*
+result.zip
